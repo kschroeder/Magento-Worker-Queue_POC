@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<sections>
+		<eschrade_queue translate="label" module="eschrade_queue">
+			<class>separator-top</class>
+			<label>Queue Settings</label>
+			<tab>advanced</tab>
+			<frontend_type>text</frontend_type>
+			<sort_order>40</sort_order>
+			<show_in_default>1</show_in_default>
+			<show_in_website>1</show_in_website>
+			<show_in_store>1</show_in_store>
+			<groups>
+				<queue translate="label">
+					<label>Queue Server Settings</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>100</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+						<endpoint_url translate="label">
+							<label>Default HTTP Endpoint URL</label>
+							<sort_order>1</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</endpoint_url>
+						<queue_host translate="label">
+							<label>Default Queue Hostname</label>
+							<sort_order>2</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</queue_host>
+						<queue_port translate="label">
+							<label>Default Queue Port</label>
+							<sort_order>3</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</queue_port>
+						<queue_name translate="label">
+							<label>Default Queue Name</label>
+							<sort_order>4</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</queue_name>
+						<result_name translate="label">
+							<label>Default Result Queue Name</label>
+							<sort_order>4</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</result_name>
+						<username translate="label">
+							<label>Default Queue Username</label>
+							<sort_order>5</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</username>
+						<password translate="label">
+							<label>Default Queue Password</label>
+							<sort_order>6</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</password>
+					</fields>
+				</queue>
+			</groups>
+		</eschrade_queue>
+	</sections>
+</config>
+                        

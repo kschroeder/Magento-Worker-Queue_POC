@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<global>
+		<models>
+			<eschrade_logger>
+				<class>Eschrade_Logger_Model</class>
+			</eschrade_logger>
+		</models>
+		
+	</global>
+	<frontend>
+		<events>
+			<controller_front_send_response_after>
+				<observers>
+					<eschrade_logger_send>
+						<class>eschrade_logger/logger</class>
+						<method>log</method>
+					</eschrade_logger_send>
+				</observers>
+			</controller_front_send_response_after>
+		</events>
+	</frontend>
+</config>

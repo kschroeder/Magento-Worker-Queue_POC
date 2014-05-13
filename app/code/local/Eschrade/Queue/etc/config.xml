@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<global>
+		<models>
+			<eschrade_queue>
+				<class>Eschrade_Queue_Model</class>
+			</eschrade_queue>
+		</models>
+		<helpers>
+			<eschrade_queue>
+				<class>Eschrade_Queue_Helper</class>
+			</eschrade_queue>
+		</helpers>
+	</global>
+	<frontend>
+		<routers>
+			<eschrade_queue>
+				<use>standard</use>
+				<args>
+					<module>Eschrade_Queue</module>
+					<frontName>queue</frontName>
+				</args>
+			</eschrade_queue>
+		</routers>
+	</frontend>
+	<queue></queue>
+</config>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Eschrade_Quotes>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Eschrade_Quotes>
+    </modules>
+</config>

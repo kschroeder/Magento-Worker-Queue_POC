@@ -1,0 +1,8 @@
+<queues>
+	<queue>
+		<hostName>magento.loc</hostName>
+		<queueName>worker</queueName>
+		<workerCount>3</workerCount>
+		<httpQueueUrl><![CDATA[http://localhost/queue]]></httpQueueUrl>
+	</queue>
+</queues>
